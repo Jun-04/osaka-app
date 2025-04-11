@@ -62,7 +62,8 @@ export default function OsakaTrivia() {
   return (
     <>
      <Header/>
-    <div className="trivia-container">
+     <div className="center-container"> 
+       <div className="trivia-container">
       <h1 className="trivia-title">🧠 Osaka Trivia</h1>
       <ul className="trivia-list">
         {facts.slice(0, 5).map((fact, index) => (
@@ -85,6 +86,7 @@ export default function OsakaTrivia() {
           </div>
         </div>
       )}
+    </div>
     </div>
     </>
   );
